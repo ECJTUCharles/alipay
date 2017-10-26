@@ -1,0 +1,384 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  background-color: #E7E7E7;
+}
+.whole-bg {
+  width: 100%;
+  background-color: #E7E7E7;
+}
+.whole-bg .blankbar {
+  background-color: #166DB0;
+  padding: 2.5%;
+}
+.whole-bg .top-bar {
+  background-color: #1983D1;
+  padding: 2%;
+}
+.whole-bg .top-bar dl {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.whole-bg .top-bar dl dd:nth-child(1) {
+  width: 70%;
+}
+.whole-bg .top-bar dl dd:nth-child(1) .img1 {
+  width: 100%;
+}
+.whole-bg .top-bar dl dd:nth-child(2) {
+  width: 5%;
+}
+.whole-bg .top-bar dl dd:nth-child(2) .img2 {
+  width: 100%;
+}
+.whole-bg .top-bar dl dd:nth-child(3) {
+  width: 5%;
+}
+.whole-bg .top-bar dl dd:nth-child(3) .img3 {
+  width: 82%;
+}
+.whole-bg .header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1983D1;
+  padding: 6% 0;
+}
+.whole-bg .header dl {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+}
+.whole-bg .header dl dd {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 12px;
+  color: #fff;
+}
+.whole-bg .header dl dd a {
+  width: 90%;
+  text-decoration: none;
+  color: #fff;
+}
+.whole-bg .header dl dd a img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.whole-bg .header dl dd a span {
+  margin-top: 20%;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.whole-bg .hidebar {
+  width: 100%;
+  background-color: #1983D1;
+  position: fixed;
+  top: 0;
+  display: flex;
+  display: none;
+  justify-content: space-between;
+  padding: 2%;
+  padding-left: 4%;
+}
+.whole-bg .hidebar #hide-left {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  float: left;
+  list-style: none;
+}
+.whole-bg .hidebar #hide-left li {
+  width: 30%;
+}
+.whole-bg .hidebar #hide-left li img {
+  width: 45%;
+}
+.whole-bg .hidebar #hide-right {
+  width: 8%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+.whole-bg .hidebar #hide-right li {
+  width: 100%;
+}
+.whole-bg .hidebar #hide-right li img {
+  width: 65%;
+}
+.whole-bg #content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 1%;
+}
+.whole-bg #content ul:nth-child(1) {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(1) {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(1) img {
+  width: 40%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(1) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(2) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-right: 5%;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(2) img {
+  width: 40%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(2) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(3) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-right: 6%;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(3) img {
+  width: 28%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(3) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(4) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(4) img {
+  width: 32%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(1) li:nth-child(4) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 2% 0;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(1) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(1) img {
+  width: 34%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(1) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(2) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(2) img {
+  width: 30%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(2) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(3) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(3) img {
+  width: 28%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(3) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(4) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(4) img {
+  width: 35%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(2) li:nth-child(4) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 2% 0;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(1) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(1) img {
+  width: 34%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(1) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(2) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(2) img {
+  width: 35%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(2) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(3) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(3) img {
+  width: 35%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(3) p {
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(4) {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(4) img {
+  width: 35%;
+  margin: 0 auto;
+}
+.whole-bg #content ul:nth-child(3) li:nth-child(4) p {
+  margin: 0 auto;
+}
+.whole-bg .tips {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1% 0;
+}
+.whole-bg .tips .list {
+  width: 100%;
+  margin: 0.8% 0;
+  background-color: #fff;
+}
+.whole-bg .tips .list img {
+  width: 100%;
+}
+.whole-bg .tips .bottom-word {
+  width: 100%;
+  margin-bottom: 15%;
+}
+.whole-bg .tips .bottom-word img {
+  width: 100%;
+}
+.whole-bg .footer {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-around;
+}
+.whole-bg .footer ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  background-color: #FAFBFD;
+  padding: 2% 0;
+}
+.whole-bg .footer ul li {
+  width: 20%;
+  background-color: #FAFBFD;
+  display: flex;
+  justify-content: space-around;
+  float: left;
+}
+.whole-bg .footer ul li span {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.whole-bg .footer ul li span a {
+  width: 100%;
+}
+.whole-bg .footer ul li span a img {
+  width: 100%;
+}

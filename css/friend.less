@@ -1,0 +1,155 @@
+@maincolor:#1983D1;@topblue:#166DB0;
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    background-color: #E7E7E7;
+}
+.whole-bg{
+    width: 100%;
+    background-color: #E7E7E7;
+    .blankbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: @topblue;
+        padding: 2.5%;
+    }
+    .top-bar{
+        width: 100%;
+        position: fixed;
+        top: 2.5%;
+        background-color: @maincolor;
+        padding: 3%;
+        display: flex;
+        justify-content: space-between;
+        a{
+            width: 10%;
+            font-size: 12px;
+            padding-top: 1.5%;
+            font-family: "楷体";
+            text-decoration: none;
+            color: #fff;
+        }
+        dl{
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            dd:nth-child(1){
+                width: 20%;
+                .img1{
+                    width: 80%;
+                    padding-top: 20%;
+                }
+            }
+            dd:nth-child(2){
+                width: 20%;
+                .img2{
+                    width: 100%;
+                }
+            }  
+            dd:nth-child(3){
+                width: 20%;
+                .img3{
+                    width: 82%;
+                }
+            }  
+        }
+    }
+    .content{
+        margin:18% 0;
+        width: 100%;
+        // display: flex;
+        // justify-content: space-around;
+        ul{
+            width: 100%;
+            list-style: none;
+            li{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                background-color: #fff;
+                border-bottom: 1px solid #E5E5E5;
+                img{
+                    width: 20%;
+                    height: 100%;
+                    padding: 2.5%;
+                }
+                .right{
+                    width: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    .right-top{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 5%;
+                        padding-bottom: 3%;
+                        span{
+                            width: 100%;
+                            font-family: "楷体";
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+                        p{
+                            width: 10%;
+                            display: flex;
+                            flex-direction: row;
+                            padding-right: 20%;
+                            font-family: "楷体";
+                            font-size: 14px;
+                            color: #A8A8A8;
+                        }
+                    }
+                    .right-bottom{
+                        width: 100%;
+                        padding-bottom: 2%;
+                        span{
+                            width: 100%;
+                            font-family: "楷体";
+                            font-size: 14px;
+                            color: #A8A8A8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   .footer{
+        width: 100%;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        justify-content: space-around;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            list-style: none;
+            background-color: #FAFBFD;
+            padding: 2% 0;
+            li{
+                width: 20%;
+                background-color: #FAFBFD;
+                display: flex;
+                justify-content: space-around;
+                float: left;
+                span{
+                    display: flex;
+                    justify-content: space-around;
+                    width: 35%;
+                    a{
+                        width: 100%;
+                         img{
+                            width: 100%;
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+}

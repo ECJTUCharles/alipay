@@ -1,0 +1,401 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.body {
+  width: 100%;
+  display: flex;
+  background-color: #E7E7E7;
+}
+.whole-bg {
+  width: 100%;
+  background-color: #E7E7E7;
+}
+.whole-bg .blankbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #166DB0;
+  padding: 2.5%;
+}
+.whole-bg .header {
+  position: fixed;
+  top: 2.5%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #D32D37;
+  width: 100%;
+}
+.whole-bg .header dl {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+  margin: 2% 0;
+}
+.whole-bg .header dl .address {
+  width: 12%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.whole-bg .header dl .address a {
+  width: 90%;
+  text-decoration: none;
+  color: #fff;
+}
+.whole-bg .header dl .address a img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.whole-bg .header dl .search {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.whole-bg .header dl .search a {
+  width: 100%;
+  text-decoration: none;
+}
+.whole-bg .header dl .search a img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.whole-bg .header dl .people {
+  width: 12%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.whole-bg .header dl .people a {
+  width: 90%;
+  text-decoration: none;
+}
+.whole-bg .header dl .people a img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.whole-bg .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 18%;
+  flex-direction: column;
+}
+.whole-bg .content .slide {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.whole-bg .content .slide a {
+  width: 100%;
+}
+.whole-bg .content .slide a img {
+  width: 100%;
+  padding: 0 3%;
+}
+.whole-bg .content .nav {
+  width: 100%;
+}
+.whole-bg .content .nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #fff;
+  padding: 2% 0;
+}
+.whole-bg .content .nav ul li {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.whole-bg .content .nav ul li a {
+  width: 70%;
+}
+.whole-bg .content .nav ul li a img {
+  width: 100%;
+}
+.whole-bg .content .koubei-life {
+  width: 100%;
+}
+.whole-bg .content .koubei-life img {
+  width: 100%;
+}
+.whole-bg .content .dapai {
+  width: 100%;
+}
+.whole-bg .content .dapai img {
+  width: 100%;
+}
+.whole-bg .content .population-eye {
+  width: 100%;
+  padding: 3%;
+  background-color: #fff;
+}
+.whole-bg .content .population-eye ul:nth-child(1) {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  margin: 1% 0;
+}
+.whole-bg .content .population-eye ul:nth-child(1) li {
+  width: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(1) li a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.whole-bg .content .population-eye ul:nth-child(1) li a img {
+  width: 25%;
+  height: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(2) {
+  width: 100%;
+  list-style: none;
+  margin: 1% 0;
+}
+.whole-bg .content .population-eye ul:nth-child(2) li {
+  width: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(2) li span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: '楷体';
+}
+.whole-bg .content .population-eye ul:nth-child(3) {
+  width: 100%;
+  list-style: none;
+  margin: 1% 0;
+  display: flex;
+  flex-direction: row;
+}
+.whole-bg .content .population-eye ul:nth-child(3) li:nth-child(1) {
+  width: 100%;
+  margin-right: 1%;
+}
+.whole-bg .content .population-eye ul:nth-child(3) li:nth-child(1) img {
+  width: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(3) li:nth-child(2) {
+  width: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(3) li:nth-child(2) img {
+  width: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(4) {
+  width: 100%;
+  list-style: none;
+  margin: 1% 0;
+  display: flex;
+  flex-direction: row;
+}
+.whole-bg .content .population-eye ul:nth-child(4) li:nth-child(1) {
+  width: 100%;
+  margin-right: 1%;
+}
+.whole-bg .content .population-eye ul:nth-child(4) li:nth-child(1) img {
+  width: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(4) li:nth-child(2) {
+  width: 100%;
+  margin-right: 1%;
+}
+.whole-bg .content .population-eye ul:nth-child(4) li:nth-child(2) img {
+  width: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(4) li:nth-child(3) {
+  width: 100%;
+}
+.whole-bg .content .population-eye ul:nth-child(4) li:nth-child(3) img {
+  width: 100%;
+}
+.whole-bg .content .top-list {
+  width: 100%;
+}
+.whole-bg .content .top-list a {
+  width: 100%;
+}
+.whole-bg .content .top-list a img {
+  width: 100%;
+}
+.whole-bg .content .foryou {
+  width: 100%;
+  background-color: #fff;
+  padding: 3%;
+}
+.whole-bg .content .foryou ul:nth-child(1) {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  margin: 1% 0;
+}
+.whole-bg .content .foryou ul:nth-child(1) li {
+  width: 100%;
+}
+.whole-bg .content .foryou ul:nth-child(1) li a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.whole-bg .content .foryou ul:nth-child(1) li a img {
+  width: 30%;
+  height: 100%;
+}
+.whole-bg .content .foryou ul:nth-child(2) {
+  width: 100%;
+  list-style: none;
+  margin: 1% 0;
+}
+.whole-bg .content .foryou ul:nth-child(2) li {
+  width: 100%;
+}
+.whole-bg .content .foryou ul:nth-child(2) li span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: '楷体';
+}
+.whole-bg .content .foryou ul:nth-child(3) {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(1) {
+  width: 100%;
+  margin-right: 1%;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(1) a {
+  width: 100%;
+  text-decoration: none;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(1) a img {
+  width: 100%;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(1) a span {
+  padding: 5% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: "楷体";
+  color: #000;
+  border: 1px solid #999 ;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(2) {
+  width: 100%;
+  margin-right: 1%;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(2) a {
+  width: 100%;
+  text-decoration: none;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(2) a img {
+  width: 100%;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(2) a span {
+  padding: 5% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: "楷体";
+  color: #000;
+  border: 1px solid #999 ;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(3) {
+  width: 100%;
+  margin-right: 1%;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(3) a {
+  width: 100%;
+  text-decoration: none;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(3) a img {
+  width: 100%;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(3) a span {
+  padding: 5% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: "楷体";
+  color: #000;
+  border: 1px solid #999 ;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(4) {
+  width: 30%;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(4) a {
+  width: 100%;
+}
+.whole-bg .content .foryou ul:nth-child(3) li:nth-child(4) a img {
+  width: 100%;
+}
+.whole-bg .content .blank {
+  width: 100%;
+  background-color: #E7E7E7;
+  margin-bottom: 20%;
+}
+.whole-bg .tips {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 3%;
+  margin: 1% 0;
+}
+.whole-bg .tips .list {
+  width: 100%;
+  margin: 0.8% 0;
+  background-color: #fff;
+}
+.whole-bg .tips .list img {
+  width: 100%;
+}
+.whole-bg .footer {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-around;
+}
+.whole-bg .footer ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  background-color: #FAFBFD;
+  padding: 2% 0;
+}
+.whole-bg .footer ul li {
+  width: 20%;
+  background-color: #FAFBFD;
+  display: flex;
+  justify-content: space-around;
+  float: left;
+}
+.whole-bg .footer ul li span {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.whole-bg .footer ul li span a {
+  width: 100%;
+}
+.whole-bg .footer ul li span a img {
+  width: 100%;
+}

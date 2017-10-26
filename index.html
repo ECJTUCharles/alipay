@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="applicable-device" content="pc,mobile" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jQuery-3.2.1.js"></script>
+    <title>首页</title>
+    <style>
+
+    </style>
+    <script>
+        window.onload = function() {
+            var main = document.getElementById("content");
+            var fixed = document.querySelector(".hidebar");
+            var y = main.offsetTop;
+            document.addEventListener("scroll", function() {
+                window.scrollY >= y ? fixed.setAttribute("style", "display:block") : fixed.setAttribute("style", "display:none;")
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="whole-bg">
+        <div class="blankbar"></div>
+        <div class="top-bar">
+            <dl>
+                <dd>
+                    <a href=""><img src="img/index-top_03.png" alt="搜索框" class="img1"></a>
+                </dd>
+                <dd>
+                    <a href=""><img src="img/index-top_05.png" alt="联系人" class="img2"></a>
+                </dd>
+                <dd>
+                    <a href=""><img src="img/index-top_07.png" alt="添加好友" class="img3"></a>
+                </dd>
+            </dl>
+        </div>
+        <div class="header">
+            <dl>
+                <dd>
+                    <a href="">
+                        <img src="img/indeximg03.png" alt="扫一扫">
+                        <span>扫一扫</span>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="">
+                        <img src="img/indeximg06.png" alt="付钱">
+                        <span>付钱</span>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="">
+                        <img src="img/indeximg08.png" alt="收钱">
+                        <span>收钱</span>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="">
+                        <img src="img/indeximg10.png" alt="卡包">
+                        <span>卡包</span>
+                    </a>
+                </dd>
+            </dl>
+        </div>
+        <div class="hidebar">
+            <ul id="hide-left">
+                <li><img src="img/indeximg03.png" alt="扫一扫"></li>
+                <li><img src="img/indeximg06.png" alt="付钱"></li>
+                <li><img src="img/indeximg08.png" alt="收钱"></li>
+                <li><img src="img/2017-10-10_092206.jpg" alt="搜索"></li>
+            </ul>
+            <ul id="hide-right">
+                <li><img src="img/index-top_07.png" alt=""></li>
+            </ul>
+        </div>
+        <div id="content">
+            <ul>
+                <li><img src="img/indeximg16.png" alt="">
+                    <p>转账</p>
+                </li>
+                <li><img src="img/indeximg19.png" alt="">
+                    <p>信用卡还款</p>
+                </li>
+                <li><img src="img/indeximg22.png" alt="">
+                    <p>充值中心</p>
+                </li>
+                <li><img src="img/indeximg25.png" alt="">
+                    <p>余额宝</p>
+                </li>
+            </ul>
+            <ul>
+                <li><img src="img/indeximg32.png" alt="">
+                    <p>淘票票</p>
+                </li>
+                <li><img src="img/indeximg34.png" alt="">
+                    <p>滴滴出行</p>
+                </li>
+                <li><img src="img/indeximg36.png" alt="">
+                    <p>校园工作</p>
+                </li>
+                <li><img src="img/indeximg38.png" alt="">
+                    <p>芝麻信用</p>
+                </li>
+            </ul>
+            <ul>
+                <li><img src="img/indeximg44.png" alt="">
+                    <p>火车票机票</p>
+                </li>
+                <li><img src="img/indeximg46.png" alt="">
+                    <p>记账本</p>
+                </li>
+                <li><img src="img/indeximg48.png" alt="">
+                    <p>共享单车</p>
+                </li>
+                <li><img src="img/indeximg50.png" alt="">
+                    <p>更多</p>
+                </li>
+            </ul>
+        </div>
+        <div class="tips">
+            <div class="list">
+                <img src="img/tip_02.png" alt="">
+            </div>
+            <div class="list">
+                <img src="img/tip_04.png" alt="">
+            </div>
+            <div class="list">
+                <img src="img/tip_06.png" alt="">
+            </div>
+            <div class="list">
+                <img src="img/tip_08.png" alt="">
+            </div>
+            <div class="list">
+                <img src="img/tip_10.png" alt="">
+            </div>
+            <div class="list">
+                <img src="img/tip_12.png" alt="">
+            </div>
+            <div class="list">
+                <img src="img/tip_14.png" alt="">
+            </div>
+            <div class="bottom-word">
+                <img src="img/bottom-word_15.png" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><span>
+                    <a href="./index.html">
+                        <img src="img/indeximg74.png" alt="">
+                    </a>
+                </span>
+                    <!-- <p>首页</p> -->
+                </li>
+                <li><span>
+                    <a href="view/koubei.html"> <img src="img/indeximg79.png" alt=""></a>
+                </span>
+                    <!-- <p>口碑</p> -->
+                </li>
+                <li><span>
+                    <a href="view/friend.html"><img src="img/indeximg82.png" alt=""></a> 
+                </span>
+                    <!-- <p>朋友</p>  -->
+                </li>
+                <li><span>
+                    <a href="view/personal-center.html"><img src="img/indeximg77.png" alt=""></a> 
+                </span>
+                    <!-- <p>我的</p> -->
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
